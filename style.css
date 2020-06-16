@@ -65,31 +65,33 @@ body{
     padding: 8px 0px;
     border: none;
     background: transparent;
-    border-bottom: 3px solid #221949;
+    border-bottom: 3px solid #100a2a;
     font-size: 15px;
     color: #ffffff;
+    
 }
 .form-input:focus{
     outline: none;
-    background: linear-gradient(to bottom, transparent, #222);
+    background: linear-gradient(to bottom, transparent, #0589b1);
     
 }
 .form-section_buttom{
-    padding: 19px 0px;
+    padding: 15px 11px;
     text-align: center;
    
 }
 .form-buttom{
+    text-align: center;
     padding: 8px 0px;
     font-weight: 900;
     width: 100%;
     border-radius: 30px;
-    background: linear-gradient(to bottom, #45319c,#585585 );
-    font-size: 20px;
+    background: linear-gradient(to bottom, #43b5e2,#1a2f3b71 );
+    font-size: 18px;
     color: #000000;
-    transition: all 2s, ;
+    transition: all 1s, ;
 }
 .form-buttom:focus{
     outline: none;
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
